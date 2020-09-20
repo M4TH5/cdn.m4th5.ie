@@ -1,0 +1,135 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .top-bar {
+    background: #149dcc;
+    color: #fff;
+    padding: 1rem;
+    z-index: 99999999999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .btn {
+    background: #007cba;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+  }
+  
+  .btn:hover {
+    opacity: 0.6;
+  }
+  
+  .page-info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .logo {
+      width: 7.5%;
+      position: fixed;
+      bottom: 0;
+      display: block;
+
+  }
+
+  .logo img {
+      width: 100%;
+  }
+
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 1rem;
+  }
+
+  #canvas-container {
+    
+    width: 80%;
+    text-align:center;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #149dcc;
+ }
+ 
+ canvas {
+    display: inline;
+    max-width: 100%;
+ }
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    padding-top: 2rem;
+    z-index: 0;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100px;
+    padding-top: 2rem;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #149dcc; 
+    border-radius: 100px;
+    padding-top: 2rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #007cba; 
+  }
+
+  #m4th5_cm {
+    position:fixed;
+    z-index:10000;
+    width:150px;
+    background:#149dcc;
+    border-radius:5px;
+    transform:scale(0);
+    transform-origin:top left;
+  }
+  #m4th5_cm.active {
+    transform:scale(1);
+    transition:transform 300ms ease-in-out;
+  }
+  #m4th5_cm .item {
+    padding:8px 10px;
+    font-size:15px;
+    color:#eee;
+  }
+
+  #m4th5_cm a {
+    color: #eee;
+    text-decoration: none;
+  }
+
+  #m4th5_cm a:hover {
+    color: #eee;
+    text-decoration: none;
+  }
+
+  #m4th5_cm .item:hover {
+    background:#007cba;
+  }
+
+  #m4th5_cm .item i {
+    display:inline-block;
+    margin-right:5px;
+  }
+  #m4th5_cm hr {
+    margin:2px 2px;
+    border-color:#fff;
+  }

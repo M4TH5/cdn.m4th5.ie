@@ -1,0 +1,41 @@
+#m4th5_cm {
+    position:fixed;
+    z-index:10000;
+    width:150px;
+    background:#149dcc;
+    border-radius:5px;
+    transform:scale(0);
+    transform-origin:top left;
+  }
+  #m4th5_cm.active {
+    transform:scale(1);
+    transition:transform 300ms ease-in-out;
+  }
+  #m4th5_cm .item {
+    padding:8px 10px;
+    font-size:15px;
+    color:#eee;
+  }
+
+  #m4th5_cm a {
+    color: #eee;
+    text-decoration: none;
+  }
+
+  #m4th5_cm a:hover {
+    color: #eee;
+    text-decoration: none;
+  }
+
+  #m4th5_cm .item:hover {
+    background:#007cba;
+  }
+
+  #m4th5_cm .item i {
+    display:inline-block;
+    margin-right:5px;
+  }
+  #m4th5_cm hr {
+    margin:2px 2px;
+    border-color:#fff;
+  }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>M4TH5 Ireland</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <button class="btn" id="prev-page">
+        <i class="fas fa-arrow-circle-left"></i> Prev Page
+      </button>
+      <span class="page-info">
+        Page <span id="page-num"></span> of <span id="page-count"></span>
+      </span>
+      <button class="btn" id="next-page">
+        Next Page <i class="fas fa-arrow-circle-right"></i>
+      </button>
+    </div>
+    <div class="logo">
+      <img src="https://learn.m4th5.ie/web/css/themes/chamilo/images/header-logo-custom1.png" alt="M4TH5 Logo">
+    </div>
+      <div id="canvas-container">
+        <canvas id="pdf-render"></canvas>
+      </div>
+      <div id="m4th5_cm">
+        <a href="https://cdn.m4th5.ie/1/learn/jc/name.pdf" target="_parent">
+          <div class="item">
+            <i class="far fa-file-pdf"></i> PDF Version
+          </div>
+        </a>
+        <a href="https://m4th5.ie" target="_parent">
+          <div class="item">
+          <i class="fas fa-external-link-alt"></i> M4TH5 Ireland
+          </div>
+        </a>
+        <a href="https://support.m4th5.ie" target="_blank">
+          <div class="item">
+           <i class="fa fa-question"></i> Support
+          </div>
+        </a>
+        <hr>
+        <a href="">
+          <div class="item">
+            <i class="fa fa-refresh"></i> Reload
+          </div>
+        </a>
+        <a href="https://learn.m4th5.ie/courses/MATHS/" target="_parent">
+          <div class="item">
+            <i class="fa fa-times"></i> Exit  
+          </div>
+        </a>
+      </div>
+
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
